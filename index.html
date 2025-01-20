@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join $TRUMP world!</title>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header
+      style="
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 4vw;
+      "
+    >
+      <img src="trump.png" />
+      <span class="goldText">TRUMP</span>
+      <div style="width: calc(12vh + 14vw); display: flex; flex-direction: row">
+        <div id="ton-connect"></div>
+      </div>
+    </header>
+
+    <hr
+      style="
+        width: 100%;
+        height: 2px;
+        border-width: 0;
+        color: rgb(43, 43, 43);
+        background-color: rgb(43, 43, 43);
+        align-items: center;
+      "
+    />
+
+    <img id="trump-bg" src="./trump1.webp" />
+
+    <div style="display: flex; flex-direction: column">
+      <h2 style="font-size: 3.5vh; padding: 0; margin: 3vh 0 0 0">
+        Buy $TRUMP
+      </h2>
+    </div>
+    <span
+      style="
+        font-size: calc(1.4vh + 1vw);
+        color: rgba(255, 255, 255, 0.5);
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        margin-bottom: 5vh;
+      "
+      >don't lose your last chance!
+    </span>
+
+    <div style="width: calc(40vh + 10vw); height: auto">
+      <canvas
+        id="btcChart"
+        width="400px"
+        height="200px"
+        style="border-radius: 15px; outline: 2px solid white"
+      ></canvas>
+    </div>
+
+    <h1 style="padding: 0; margin: 3vh 0 0 0">Before the BIG PUMP....</h1>
+    <div style="font-size: calc(1.4vh + 1vw); color: rgba(255, 255, 255, 0.5)">
+      Connect your wallet to continue
+    </div>
+
+    <script defer src="./index-C_XqBI-0.js" type="module"></script>
+
+    <script src="binance.js" type="module"></script>
+  </body>
+</html>
